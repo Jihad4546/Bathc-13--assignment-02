@@ -9,15 +9,15 @@
     <title>Assigment 02</title>
 </head>
 <body>
-    <header class="bg-[#1A0B2E]">
-        <div class="flex justify-between items-center pt-8 w-[95%] md:max-w-[1200px] m-auto">
+ <header class="bg-[#1A0B2E]"> 
+        <div class="flex justify-between items-center pt-4 mb-4 w-[95%] md:max-w-[1200px] m-auto">
             <div>
                 <h1 class="text-white text-4xl font-bold">Tech<span class="text-5xl font-bold
            bg-gradient-to-r 
            from-[#9100F8] via-[#FB09B4] to-[#F7E93F]
            bg-clip-text text-transparent">Wava</span></h1>
             </div>
-            <div class="md:hidden text-2xl">
+            <div class="md:hidden text-4xl">
                 <img src=".//assets/hamburger-menu.png" alt="">
             </div>
             <nav class="hidden md:block">
@@ -35,6 +35,7 @@
                 
             </div>
         </div>
+        <hr class="text-[#7e43cb] opacity-40">
     </header>
     <section class="bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat">
         <div class="max-w-[1600px] pt-20">
@@ -50,12 +51,30 @@
                 <p class="mb-6 text-[#FFFFFF] opacity-70 text-center">Your daily dose of tech insights, productivity hacks, and personal growth</p>               
                 <div class="pb-2">
                     <button class="font-bold py-3 px-5 rounded-xl text-xl text-white bg-gradient-to-r from-[#9100F8] via-[#FB09B4] to-[#F7E93F]
-         hover:scale-105 transition-transform duration-300 cursor-pointer text-[16px]"><i class="text-xl fa-brands fa-spotify text-white"></i>Listen on Spotify</button>
-         <button class="font-bold ml-3 hover:text-white py-3 px-5 rounded-xl text-xl text-[#00FF88] border-2  cursor-pointer text-[16px]"><i class="text-xl fa-solid fa-envelope"></i> Subscribe</button>
+                     hover:scale-105 transition-transform duration-300 cursor-pointer text-[16px]">
+                     <i class="text-xl fa-brands fa-spotify text-white"></i>
+                     Listen on Spotify
+                    </button>
+
+                   <button class="relative ml-3 py-3 px-5 rounded-xl text-[#00FF88] text-[16px] font-bold overflow-hidden">
+  
+ 
+                  <span class="absolute inset-0 rounded-xl border-2 border-[#00FF88]
+                   animate-borderMove"></span>
+
+  
+                 <span class="relative flex items-center gap-2">
+                 <i class="text-xl fa-solid fa-envelope"></i>
+                Subscribe
+                </span>
+
+                  </button>
+
                 </div>
             </div>
     </section>
     <section class="bg-[#1A0B2E]">
+       
         <div class="w-[90%] md:max-w-[1200px] m-auto text-center pt-5">
             <h2 class="text-white text-3xl font-bold pt-4">About The Podcast</h2>
             <p class="text-white pb-10 opacity-50 pt-4 md:max-w-[600px] md:m-auto text-[12px]">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
@@ -67,7 +86,7 @@
             <hr class="p-0.5 opacity-25 text-white pt-10">
         </div>
         
-        <div class="w-[95%] m-auto grid grid-cols-2 sm:grid-cols-4 gap-6 pt-10">
+        <div class="w-[95%] m-auto grid grid-cols-2 sm:grid-cols-4 gap-6 md:pt-20 pt-10 md:pb-24 pb-10">
             <div class="text-center">
                 <h1 class="text-[#00FF88] text-5xl pb-4">150K+</h1>
                 <p class="text-white opacity-70">Monthly Listeners</p>
@@ -87,39 +106,40 @@
 
         </div>
     </section>
-    <section class="bg-[#230E3D]">
-          <div>
-            <h2 class="text-white text-center text-3xl pt-10 pb-4">Why Choose TechWave</h2>
-          </div>
-        <div class="w-[95%] m-auto md:max-w[1200px]  sm:grid sm:grid-cols-3 sm:grid-rows-3 gap-8">
-            <div class="col-span-1 row-span-2 p-10 bg-[#35116566] rounded-[40px] my-6">
-                <img src="./assets/headphone.png" alt="">
-                <h2 class="text-2xl pt-6 pb-4 text-white">Premium Audio Quality</h2>
-                <p class="text-xl text-white opacity-70 flex justify-center items-center">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="col-span-2 row-span-1 bg-[#35116566] rounded-[40px] p-10 my-6">
-                <img src="./assets/headphone.png" alt="">
-                <h2 class="text-2xl pt-6 pb-4 text-white">Premium Audio Quality</h2>
-                 <p class="text-xl text-white opacity-70">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            <div class="col-span-2 row-span-1 bg-[#35116566] rounded-[40px] p-10 my-6">
-                <img src="./assets/headphone.png" alt="">
-                <h2 class="text-2xl pt-6 pb-4 text-white">Premium Audio Quality</h2>
-                 <p class="text-xl text-white opacity-70">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
-            
-            <div class="col-span-2 row-span-1 bg-[#35116566] rounded-[40px] p-10 my-6" >
-                     <img src="./assets/headphone.png" alt="">
-                     <h2 class="text-2xl pt-6 pb-4 text-white">Premium Audio Quality</h2>
-                     <p class="text-xl text-white opacity-70">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-
-            </div>
-            <div class="col-span-1 row-span-1  bg-[#35116566] rounded-[40px] p-10 my-6">
-                   <img src="./assets/headphone.png" alt="">
-                   <h2 class="text-2xl pt-6 pb-4 text-white">Premium Audio Quality</h2>
-                   <p class="text-xl text-white opacity-70">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-            </div>
+    
+    
+  <section class="bg-[#230E3D]">
+     <h2 class="text-2xl text-white md:pt-24 pt-10 pb-4 text-center">Why Choose TechWave</h2>
+    <div class="w-[95%] m-auto md:max-w-0[1200px] md:m-auto md:grid md:grid-cols-3   md:grid-rows-3 md:gap-6">
+        <div class="col-span-1 row-span-2 bg-[#35116566] flex flex-col  justify-center p-10 rounded-4xl">
+            <img class="w-10 h-10" src="./assets/headphone.png" alt="">
+            <h2 class="text-2xl text-white py-4">Premium Audio Quality</h2>
+            <p class="text-white text-xl">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
         </div>
+        <div class=" mt-5 col-span-2 row-span-1 bg-[#35116566] flex flex-col  justify-center p-10 rounded-4xl">
+            <img class="w-12 h-12" src="./assets/device.png" alt="">
+            <h2 class="text-2xl text-white py-4">Premium Audio Quality</h2>
+            <p class="text-white text-xl">Listen on the go with seamless mobile experience and offline downloads.</p>
+        </div>
+        <div class=" mt-5 col-span-2 row-span-1 bg-[#35116566] flex flex-col  justify-center p-10 rounded-4xl">
+            <img class="w-10 h-10" src="./assets/location.png" alt="">
+            <h2 class="text-2xl text-white py-4">Global Community</h2>
+            <p class="text-white text-xl">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+        </div>
+        <div class=" mt-5 col-span-2 row-span-1 bg-[#35116566] flex flex-col  justify-center p-10 rounded-4xl">
+            <img class="w-10 h-10" src="./assets/Icon (Stroke).png" alt="">
+            <h2 class="text-2xl text-white py-4">Premium Audio Quality</h2>
+            <p class="text-white text-xl">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+        </div>
+        <div class=" mt-5 col-span-1 row-span-1 bg-[#35116566] flex flex-col  justify-center p-10 rounded-4xl">
+            <img class="w-10 h-10" src="./assets/resource.png" alt="">
+            <h2 class="text-2xl text-white py-4">Premium Audio Quality</h2>
+            <p class="text-white text-xl" >Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+        </div>
+    </div>
+  </section>
+
+
     <section class="bg-[#1A0B2E]">
         <div class="w-[95%] lg:max-w-[1200px] m-auto">
             <div class="pt-32">
@@ -239,5 +259,21 @@
         </div>
         
     </footer>
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

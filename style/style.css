@@ -1,25 +1,23 @@
 @import "tailwindcss";
 
-.containers{
-    display: grid;
-    grid-template-areas: 
-    "div1 div2 div2"
-    "div1 div3 div3"
-    "div4 div4 div5"
+@keyframes borderMove {
+  0% {
+    clip-path: inset(0 0 0 100%);
+  }
+  25% {
+    clip-path: inset(100% 0 0 0);
+  }
+  50% {
+    clip-path: inset(0 100% 0 0);
+  }
+  75% {
+    clip-path: inset(0 0 100% 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 100%);
+  }
 }
-.div1{
-    grid-area: div1;
-}
-.div2{
-    grid-area: div2;
-    
-}
-.div3{
-    grid-area: div3;
-}
-.div4{
-    grid-area: div4;
-}
-.div5{
-    grid-area: div5;
+
+.animate-borderMove {
+  animation: borderMove 2.5s linear infinite;
 }
